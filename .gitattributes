@@ -1,0 +1,14 @@
+# Source, docs and notebooks: normalize to LF in the repository and on checkout.
+*.py      text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.tex     text eol=lf
+*.ipynb   text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Data and submitted prediction/result files: keep byte-for-byte (no line-ending conversion).
+*.csv     -text
+*.parquet binary
+*.png     binary
+*.pdf     binary
