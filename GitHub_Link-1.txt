@@ -1,0 +1,25 @@
+DATA 37711 - Homework 3 - Elina Lee
+
+Public repository:
+https://github.com/yeona-lee-researcher/Foundation-of-AI-2026-Fall
+
+Homework 3 directory:
+https://github.com/yeona-lee-researcher/Foundation-of-AI-2026-Fall/tree/main/hw3
+
+Run with Python 3.11 or 3.12:
+    git clone https://github.com/yeona-lee-researcher/Foundation-of-AI-2026-Fall.git
+    cd Foundation-of-AI-2026-Fall/hw3
+    python -m venv .venv
+    # Windows PowerShell: .\.venv\Scripts\Activate.ps1
+    # macOS/Linux: source .venv/bin/activate
+    python -m pip install -r requirements.txt
+    python run_all.py --smoke
+    python run_all.py --problem all
+
+Canvas submission files:
+    HW3_Elina_Lee.pdf       Mathematical solutions and empirical results
+    HW3_Code_and_Data.zip   Reproducible hw3/ folder including TeX, PDF, code, data and results
+    GitHub_Link.txt         Repository link, directory and execution instructions
+
+README.md maps each subquestion to the report page, code and evidence.
+The three CSVs in hw3/data/ match the course files byte for byte.
